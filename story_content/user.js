@@ -2,125 +2,128 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5yiQVSN26aE":
+      case "6cNsCVpDp4l":
         Script1();
         break;
-      case "5WJQAqfcP0g":
+      case "5kZ8tSsBCLr":
         Script2();
         break;
-      case "6gDl8E3tVk7":
+      case "5kX6bzvjVhd":
         Script3();
         break;
-      case "66JgBdPkd0c":
+      case "5paWWTMd7P7":
         Script4();
         break;
-      case "6dIDKmZyVkX":
+      case "68Qe5nWh8wr":
         Script5();
         break;
-      case "5rxbfRtkPnC":
+      case "65vY8JX73XI":
         Script6();
         break;
-      case "6GpEirUWd5I":
+      case "6mJpjpyjQra":
         Script7();
         break;
-      case "5noqXn24ihM":
+      case "6jr5yxxkmMP":
         Script8();
         break;
-      case "5Y17W8is1l6":
+      case "6AG8S2SEbWT":
         Script9();
         break;
-      case "6MOgRUX166w":
+      case "5cgNJpMl7US":
         Script10();
         break;
-      case "6XbkqnZPBRv":
+      case "5z1yqmlTIpD":
         Script11();
         break;
-      case "6ggcFrZmTMf":
+      case "5mXzkZfEdiP":
         Script12();
         break;
-      case "5y2Q1WcGxvL":
+      case "5avAnbnV9up":
         Script13();
         break;
-      case "5iAodO6F6oU":
+      case "5uiJxDPm6iz":
         Script14();
         break;
-      case "6Hi4uNdLdEr":
+      case "5yxfaGssLOb":
         Script15();
         break;
-      case "5p20w0c9tG1":
+      case "6qcn7MEM0c9":
         Script16();
         break;
-      case "6a89LIpUp2L":
+      case "609CPSjFK9N":
         Script17();
         break;
-      case "5WvYGPERiAd":
+      case "67OypR9nsks":
         Script18();
         break;
-      case "6XaTJ871DQs":
+      case "5dHYW2rLMgP":
         Script19();
         break;
-      case "61vIOYiztkW":
+      case "5yYu1PZt2f6":
         Script20();
         break;
-      case "6c73nPVFxYj":
+      case "5dMQIRhJokF":
         Script21();
         break;
-      case "5cMMTLKoF7k":
+      case "66rL8GVo870":
         Script22();
         break;
-      case "5a4c65fxTak":
+      case "6lOxieyU9bj":
         Script23();
         break;
-      case "6QEGLmt8t5T":
+      case "6BB4FqY0KgP":
         Script24();
         break;
-      case "64SGHkLA1md":
+      case "5Ze6SFeZUYA":
         Script25();
         break;
-      case "6Rk9QXKXbAC":
+      case "5pcPZx8iZjn":
         Script26();
         break;
-      case "6aeTpBAf8ed":
+      case "5tYb7Ef3vcE":
         Script27();
         break;
-      case "6j9H3r1mA4V":
+      case "6XOsWe58uuX":
         Script28();
         break;
-      case "5wsWVK3yRnU":
+      case "6i6FHwh2gcD":
         Script29();
         break;
-      case "6Qy4LZ8t8Ew":
+      case "5e54Liw8cVW":
         Script30();
         break;
-      case "5mJH6Wrva1P":
+      case "6aLzrMVIvzc":
         Script31();
         break;
-      case "6NwVRrGPdhQ":
+      case "5vMVEh4dapX":
         Script32();
         break;
-      case "5s7d6vTzzxU":
+      case "5hBQBEwrybY":
         Script33();
         break;
-      case "6PouZbKxJPc":
+      case "68MwgcTbRoO":
         Script34();
         break;
-      case "6aa7OOJOULl":
+      case "5uuo7W5QnOW":
         Script35();
         break;
-      case "6NZgXS5Robg":
+      case "6gZ3lyqYh36":
         Script36();
         break;
-      case "6egfIyDYh3l":
+      case "6qZ6HlpR8wn":
         Script37();
         break;
-      case "5gB50BsyrgD":
+      case "5o3TbIRfCkC":
         Script38();
         break;
-      case "6OtY2p2OPYO":
+      case "6o4DJsKLrJ1":
         Script39();
         break;
-      case "5sNAhp0wn27":
+      case "62xcxuLzhVn":
         Script40();
+        break;
+      case "6OVTja5Ta7f":
+        Script41();
         break;
   }
 }
@@ -167,15 +170,15 @@ for (let i = 0; i < allVideosInCourse.length; i++) {
 
 function Script6()
 {
-  document.getElementsByTagName("video")[0].setAttribute("controls", "true");
-}
-
-function Script7()
-{
   let allVideosInCourse = document.getElementsByTagName("video"); 
 for (let i = 0; i < allVideosInCourse.length; i++) {
   allVideosInCourse[i].setAttribute("controls", "true");
 }
+}
+
+function Script7()
+{
+  document.getElementsByTagName("video")[0].setAttribute("controls", "true");
 }
 
 function Script8()
@@ -435,6 +438,14 @@ for (let i = 0; i < allVideosInCourse.length; i++) {
 }
 
 function Script40()
+{
+  let allVideosInCourse = document.getElementsByTagName("video"); 
+for (let i = 0; i < allVideosInCourse.length; i++) {
+  allVideosInCourse[i].setAttribute("controls", "true");
+}
+}
+
+function Script41()
 {
   let allVideosInCourse = document.getElementsByTagName("video"); 
 for (let i = 0; i < allVideosInCourse.length; i++) {
